@@ -133,7 +133,7 @@ function calcularAdicionales(totalGeneral) {
     const honorarios = interventores * 1248;
     document.getElementById('honorarios').innerText = formatearMoneda(honorarios);
 
-    const totalFinal = totalGeneral + impuesto + honorarios;
+    const totalFinal = impuesto + honorarios;
     document.getElementById('totalFinal').innerText = formatearMoneda(totalFinal);
 }
 
